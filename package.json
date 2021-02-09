@@ -5,12 +5,18 @@
   "repository": "github:mktoho12/hello-npm-scripts",
   "license": "MIT",
   "scripts": {
-    "precompress": "echo before compress!",
-    "compress": "echo compress!",
-    "postcompress": "echo after compress!",
-    "prepare": "npx sort-package-json"
+    "build": "webpack",
+    "prepare": "sort-package-json",
+    "start": "webpack serve"
   },
   "devDependencies": {
-    "sass": "^1.32.6"
+    "css-loader": "^5.0.2",
+    "sass": "^1.32.6",
+    "sass-loader": "^11.0.1",
+    "sort-package-json": "^1.48.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^4.0.0-beta.0"
   }
 }

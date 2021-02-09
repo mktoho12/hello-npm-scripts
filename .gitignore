@@ -1,2 +1,3 @@
 node_modules/
 hello-npm-scripts-1.0.0.tgz
+dist/main.js
