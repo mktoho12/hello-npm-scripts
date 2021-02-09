@@ -1,0 +1,16 @@
+{
+  "name": "hello-npm-scripts",
+  "version": "1.0.0",
+  "description": "npm scriptsが何なのかを調べる",
+  "repository": "github:mktoho12/hello-npm-scripts",
+  "license": "MIT",
+  "scripts": {
+    "precompress": "echo before compress!",
+    "compress": "echo compress!",
+    "postcompress": "echo after compress!",
+    "prepare": "npx sort-package-json"
+  },
+  "devDependencies": {
+    "sass": "^1.32.6"
+  }
+}
